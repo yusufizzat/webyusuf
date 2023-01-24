@@ -1,0 +1,294 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif ;
+}
+/* navbar */
+header {
+   background-color: rgb(255, 255, 255);
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   
+}
+
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+    padding: 15px 16px;
+    margin: 0;
+}
+
+header h1 a {
+    color: rgb(19, 19, 19);
+    font-size: .7em;
+    letter-spacing: 3px;
+    font-family: 'Sora', sans-serif ;
+}
+
+.active {
+    color: #4B56D2;
+}
+
+header ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 25.3px 19px;
+}
+
+header ul li a {
+    color: rgb(19, 19, 19);
+}
+
+header ul li a:hover {
+    color: #4B56D2;
+    transition: .21s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* navbar end */
+
+/* tulisan */
+.tulisan {
+    height: 730px;
+}
+
+.container1 {
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin: 10vh;
+}
+
+.h3 {
+    font-size: 4.5em;
+    color:  #4B56D2;
+    margin: 0;
+    letter-spacing: 2px;
+    
+}
+
+
+.text {
+    margin-left: 89px;
+}
+/* tulisan end */
+
+/* gambar */
+.kon {
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+    height: 650px;
+    
+}
+
+.gmbr {
+    width: 50%;  
+    background-image: url('IMG_20210518_0659121.jpg');
+    z-index: -10;
+    background-size: cover; 
+    position: relative;
+    left: 100
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak {
+    width: 50%;
+    height: 100%;
+    background-color: #4B56D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.kotak2 {
+    display: flex;
+    justify-content: center;    
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke; 
+    box-sizing: border-box;
+}
+
+
+
+.p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.kotak2 > p {
+    margin: 0;
+    padding: 0;
+}
+
+.kotak2 h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.tulisan1 {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 950px;
+    margin-top: 20px;
+    
+}
+
+.container2 {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px;  
+    /* border: 1px solid; */
+}
+
+.container2 > h3 {
+    font-weight: 30px;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    font-family: 'Sora', sans-serif ;
+}
+
+.con-h4 {
+    width: 70%;
+    /* border: 1px solid; */
+    line-height: 25px;
+}
+
+.con1-h4 {
+    width: 70%;
+    /* border: 1px solid; */
+    line-height: 25px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 20;
+    
+}
+
+.flex-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.con11-h4 {
+    width: 50%;
+    /* border: 1px solid; */
+    line-height: 25px;
+    margin-left: 274px;
+}
+
+.flex {
+    display: flex;
+    /* border: 1px solid; */
+    align-items: flex-start;
+    width: 100%;
+}
+
+.container3 {
+    width: 100%;
+    height: 200px;
+    background-color: #4B56D2;
+}
+.kotak1212 {
+    width: 100%;
+    height: 50px;
+    background-color: #00053d;
+}
+.kotak1212 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:1340px) {
+    .tulisan {
+        height: 770px;
+        margin-top: 50px;
+    }
+
+    .h3 {
+        /* font-size: 5.5em; */
+        
+    }
+
+    .kon {
+        /* border: 1px solid; */
+        display: flex;
+        width: 100%;
+        height: 760px;
+        
+    }
+    
+}
+@media screen and (min-width:1380px) {
+    .tulisan {
+        height: 820px;
+        margin-top: 120px;
+    }
+
+    .h3 {
+        font-size: 5em;
+        /* color: red; */
+    }
+    .kon {
+        /* border: 1px solid; */
+        display: flex;
+        width: 100%;
+        height: 800px;
+        
+    }
+}
+
+@media screen and (min-width:1900px) {
+    .tulisan {
+        height: 900px;
+        margin-top: 170px
+    } 
+}
+
+@media screen and (min width) {
+    
+}
+        
